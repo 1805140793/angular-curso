@@ -39,3 +39,24 @@
   .p-1 {
     padding: 1px;
   }
+
+  /*
+  Css de la clase row
+  Colocar las columnas junta a la otra
+  */
+  .row{
+    display: flex;
+  }
+
+  /*Css de la clase col
+  Espaciado y separacion
+  */
+  .col{
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+
+  input{
+    display: block;
+    margin: 5px;
+  }
